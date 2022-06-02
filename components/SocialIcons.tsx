@@ -1,6 +1,5 @@
 import { chakra } from '@chakra-ui/react';
 import Discord from '../public/images/discord.svg';
-import Substack from '../public/images/substack.svg';
 import Medium from '../public/images/medium.svg';
 import Twitter from '../public/images/twitter.svg';
 import Github from '../public/images/github.svg';
@@ -19,27 +18,22 @@ export interface socialLink {
 const SOCIAL: socialLink[] = [
   {
     alt: 'Medium Icon',
-    href: 'https://medium.com/bankless-dao',
+    href: 'https://medium.com/livethelifetv-magazine',
     src: <Medium />,
   },
   {
-    alt: 'Substack Icon',
-    href: 'https://banklessdao.substack.com/',
-    src: <Substack />,
-  },
-  {
     alt: 'Discord Icon',
-    href: 'https://discord.gg/bjPz2w9Zts',
+    href: 'https://discord.gg/gvo',
     src: <Discord />,
   },
   {
     alt: 'Twitter Icon',
-    href: 'https://twitter.com/banklessDAO',
+    href: 'https://twitter.com/livethelifetv',
     src: <Twitter />,
   },
   {
     alt: 'Github Icon',
-    href: 'https://github.com/BanklessDAO',
+    href: 'https://github.com/unbanksytv',
     src: <Github />,
   },
 ];
