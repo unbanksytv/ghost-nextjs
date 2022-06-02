@@ -1,0 +1,3 @@
+[build.environment]
+   NEXT_PUBLIC_GHOST_URL="https://edito.ghost.io"
+   NEXT_PUBLIC_GHOST_CONTENT_KEY="46c6aab08045d720954491dc62"
